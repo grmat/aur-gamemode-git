@@ -1,0 +1,13 @@
+pkgbase = gamemode-git
+	pkgdesc = Optimise Linux system performance on demand
+	pkgver = 1.0.r0.g4f14c80
+	pkgrel = 1
+	url = https://github.com/FeralInteractive/gamemode
+	arch = x86_64
+	license = BSD
+	depends = systemd
+	source = gamemode-git::git+https://github.com/FeralInteractive/gamemode.git
+	sha256sums = SKIP
+
+pkgname = gamemode-git
+
